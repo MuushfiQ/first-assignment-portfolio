@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
+}
+
+/* header styles */
+.header {
+    background-image: url('../images/banner/banner2.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 220px 230px 160px 1000px;
+    margin-bottom: 140px;
+
+}
+
+.banner {
+    text-align: right;
+    border: 0;
+}
+
+.banner-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+
+
+.banner-description {
+    color: #444343;
+    margin-bottom: 30px;
+    /* padding-left:0px 20px ; */
+
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* failure section style */
+
+.about-failure {
+    width: 1200px;
+    display: flex;
+    margin-left: 500px;
+    align-items: center;
+    margin-bottom: 130px;
+
+}
+
+.failure {
+    padding: 0px 10px;
+    margin-left: 80px;
+
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    width: 288px;
+    ;
+    margin-bottom: 25px;
+
+}
+
+.failure-description {
+    color: #444343;
+    margin-bottom: 15px;
+
+}
+
+.failure-list {
+    color: #444343;
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.failure-list li:before {
+    padding: 0px 10px;
+    content: '✔';
+    color: green;
+}
+
+/* plans style */
+.my-plans {
+    width: 1200px;
+    align-items: center;
+    margin: 0px 400px;
+}
+
+.plans-title {
+    color: #151414;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plans-name {
+    text-align: center;
+}
+
+.title-head {
+    margin-top: 10px;
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.sub-title {
+    color: #737272;
+    font-weight: 500px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* advice secton styles */
+
+.about-advise {
+    margin-top: 125px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border-radius: 8px;
+    margin-left: 120px;
+}
+
+.advise-description {
+    margin-left: 500px;
+    padding: 60px 0px;
+    width: 450px;
+}
+
+.advise-title {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.btn-secondery {
+    color: #F15B22;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 35px;
+    border: 0px;
+}
+
+/* footer styles */
+.footer {
+    width: 100%;
+    height: 600px;
+    background-color: #151414;
+    margin-top: 140px;
+}
+
+.about-contact {
+    display: flex;
+}
+
+.contact-details {
+    width: 580px;
+    padding: 130px 250px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+
+}
+
+.contact-description {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.icon-image img {
+    padding: 0px 10px;
+}
+
+.contact-title-2 {
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+.input-email {
+    margin-bottom: 15px;
+    color: #F3F3F3;
+    padding: 21px 20px;
+    border: 2px solid white;
+    background-color: black;
+}
+
+.contact-details-2 {
+    padding: 150px 250px;
+
+}
